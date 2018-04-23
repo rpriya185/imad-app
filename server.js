@@ -6,12 +6,12 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {
-    articleOne : {
+    'articleOne' : {
         title: 'articleone',
         content: `<h1> Article One </h1>
                     <p> This is Article one </p>`
                  },
-    articleTwo : {
+    'articleTwo' : {
         title: 'articletwo',
         content: `<h1> Article Two </h1>
                     <p> This is Article two </p>`
