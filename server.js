@@ -24,17 +24,16 @@ function createTemplate(data){
     var title=data.title;
     var content=data.content;
     var htmlTemplate= `
-    
     <html>
     <head>
-    <title>${title}</title>
+    <title>
+    ${title}
+    </title>
     </head>
     <body>
     ${content}
     </body>
     </html>
-    
-    
     `;
     
     return htmlTemplate;
