@@ -1,14 +1,14 @@
 console.log('Loaded!');
-var button = document.getElementbyId('counter');
+var button = document.getElementById('counter');
 var counter=0;
 button.onClick=function() {
-  var request= new XMLhttpRequest();
+  var request= new XMLHttpRequest();
   request.onreadystatechange=function()
  {
-   if(request.readyState===XMLhttpRequest.DONE)  {
+   if(request.readyState===XMLHttpRequest.DONE)  {
        if(request.status===200){
            var counter=request.responseText;
-           var span=document.getElementbyId('count');
+           var span=document.getElementById('count');
            span.innerHTML=counter.tostring();
           
        }
