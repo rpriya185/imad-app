@@ -2,7 +2,7 @@ console.log('Loaded!');
 var button = document.getElementbyId('counter');
 button.onClick=function() {
   var request= new XMLhttpRequest();
-  request.onReadyStateChange=function()
+  request.onreadystatechange=function()
  {
    if(request.readyState===XMLhttpRequest.DONE)  {
        if(request.status===200){
