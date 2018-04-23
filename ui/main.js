@@ -1,7 +1,7 @@
 
 var button = document.getElementById('counter');
 var counter=0;
-button.Onclick = function() {
+button.onclick=function() {
   //var request = new XMLHttpRequest();
   //request.onreadystatechange = function() {
    //if(request.readyState === XMLHttpRequest.DONE)  {
@@ -17,4 +17,4 @@ button.Onclick = function() {
  // request.open('GET','http://rpriya185.imad.hasura-app.io/counter',true);
  // request.send(null);
     
-};
+}
